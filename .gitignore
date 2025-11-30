@@ -205,3 +205,48 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ==============================
+# OS junk
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Google Colab
+# ==============================
+.config/
+content/
+.colab/
+
+# ==============================
+# TensorFlow / ML logs & artifacts
+# ==============================
+logs/
+tensorboard/
+tfevents*
+*.ckpt
+
+# ==============================
+# Trained model files
+# ==============================
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# ==============================
+# Logs & temp files
+# ==============================
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# ==============================
+# Editors
+# ==============================
+.vscode/
+.idea/
