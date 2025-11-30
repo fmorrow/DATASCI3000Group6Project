@@ -19,7 +19,7 @@ The project includes:
 ## 📊 Dataset
 The dataset contains information about asteroid orbital dynamics and physical properties including:
 
-### Features Used:
+### Features Used in Prediction:
 - RMS
 - Reflectivity (albedo)
 - Diameter error
@@ -48,8 +48,8 @@ The following preprocessing steps were applied:
 - Encoded categorical variables using label encoding
 - Applied **standard scaling** to numeric features
 - Split dataset into:
-  - 70% Training
-  - 20% Validation
+  - 70% Training set
+  - 20% Validation set
   - 10% Test set
 
 ---
@@ -90,7 +90,7 @@ Metrics were computed on:
 
 ## 🏆 Best Performing Model
 
-Based on validation and test performance:
+Based on training and validation performance:
 - The **Stacking Regressor** showed the strongest generalization performance.
 - It combined the strengths of tree models and neural networks while reducing individual model biases.
 
@@ -135,10 +135,13 @@ This project includes:
 ---
 
 ## 👤 Authors
-Fraser Morrow  
-Aidan Tam
-Nolan Carvalho
-Henry Savill
+Fraser Morrow (fmorrow@uwo.ca)
+
+Aidan Tam (atam243@uwo.ca)
+
+Nolan Carvalho (ncarval4@uwo.ca)
+
+Henry Savill (hsavill@uwo.ca)
 
 ---
 
