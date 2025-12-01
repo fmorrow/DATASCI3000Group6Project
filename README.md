@@ -128,7 +128,7 @@ This project includes:
 ## 🚀 How to Run
 
 1. Clone the repository:
-2. Open the notebook in Google Colab or Jupyter:
+2. Open the notebook in Google Colab(best) or Jupyter:
 3. Ensure dependencies are installed:
 4. Run all cells from top to bottom.
 
