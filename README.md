@@ -3,7 +3,7 @@
 # Asteroid Diameter Prediction Project
 
 ## 📌 Project Overview
-This project focuses on predicting **asteroid diameters** using orbital and physical characteristics collected from NASA/JPL datasets.  
+This project focuses on predicting **asteroid diameters** using orbital and physical characteristics collected from NASA JPL Small Body Database.  
 Multiple machine learning regression models were trained and evaluated to determine which model best captures the relationship between asteroid properties and diameter size.
 
 The project includes:
