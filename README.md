@@ -3,8 +3,9 @@
 # Asteroid Diameter Prediction Project
 
 ## 📌 Project Overview
-This project focuses on predicting **asteroid diameters** using orbital and physical characteristics collected from NASA JPL Small Body Database.  
+This project focuses on predicting **asteroid diameters** using orbital data and physical characteristics collected from NASA JPL Small Body Database.  
 Multiple machine learning regression models were trained and evaluated to determine which model best captures the relationship between asteroid properties and diameter size.
+After determining the best model, we used it to on the unseen test data as a final analysis
 
 The project includes:
 - Data cleaning & preprocessing
@@ -67,7 +68,8 @@ The following preprocessing steps were applied:
 - XGBoost
 - CatBoost
 
-### Neural Network:
+### Neural Networks:
+- Single Perceptron
 - MLP Regressor
 
 ### Ensemble Model:
@@ -108,7 +110,7 @@ This project includes:
 ---
 
 ## 📁 Project Structure
-- notebook.ipynb # Full analysis and modeling pipeline
+- asteroid_diameter_prediction.ipynb # Full analysis and modeling pipeline
 - dataset.csv # Raw dataset
 - README.md # Project documentation
 - .gitignore # Ignored system and model files
@@ -131,6 +133,16 @@ This project includes:
 2. Open the notebook in Google Colab(best) or Jupyter:
 3. Ensure dependencies are installed:
 4. Run all cells from top to bottom.
+
+
+Note: You may need to change the file path found in cell 6, where you set df equal to the file path, as where your files are stored may be different than the one used to make this document.
+
+For Google Colab: 
+1. After running the mounting code block, press the folder symbol on the right side of the screen. 
+2. Press the downarrow beside the 'drive' folder and press the arrow beside the 'MyDrive' folder. 
+3. Find where you stored the files to. Right click the 'dataset.csv' file and press 'copy path'.
+4. Return to the code block with the file path, remove the existing one and paste the one you just copied in its place.
+5. You are now able to run everything properly.
 
 ---
 
