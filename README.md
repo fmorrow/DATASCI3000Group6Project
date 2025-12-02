@@ -5,7 +5,7 @@
 ## 📌 Project Overview
 This project focuses on predicting **asteroid diameters** using orbital data and physical characteristics collected from NASA JPL Small Body Database.  
 Multiple machine learning regression models were trained and evaluated to determine which model best captures the relationship between asteroid properties and diameter size.
-After determining the best model, we used it to on the unseen test data as a final analysis
+After determining the best model, we used it to on the unseen test data as a final analysis.
 
 The project includes:
 - Data cleaning & preprocessing
@@ -18,7 +18,7 @@ The project includes:
 ---
 
 ## 📊 Dataset
-The dataset contains information about asteroid orbital dynamics and physical properties including:
+The dataset contains information about asteroid orbital dynamics and physical properties including but aren't limited to:
 
 ### Features Used in Prediction:
 - RMS
