@@ -138,11 +138,13 @@ This project includes:
 Note: You may need to change the file path found in cell 6, where you set df equal to the file path, as where your files are stored may be different than the one used to make this document.
 
 For Google Colab: 
-1. After running the mounting code block, press the folder symbol on the right side of the screen. 
-2. Press the downarrow beside the 'drive' folder and press the arrow beside the 'MyDrive' folder. 
-3. Find where you stored the files to. Right click the 'dataset.csv' file and press 'copy path'.
-4. Return to the code block with the file path, remove the existing one and paste the one you just copied in its place.
-5. You are now able to run everything properly.
+1. Download the dataset.csv and asteroid_diameter_prediction.ipynb files
+2. Upload them to your Google Drive and open the asteroid_diameter_prediction.ipynb file
+3.  After running the mounting code block, press the folder symbol on the right side of the screen. 
+4. Press the downarrow beside the 'drive' folder and press the arrow beside the 'MyDrive' folder. 
+5. Find where you stored the files to. Right click the 'dataset.csv' file and press 'copy path'.
+6. Return to the code block with the file path, remove the existing one and paste the one you just copied in its place.
+7. You are now able to run everything properly.
 
 ---
 
